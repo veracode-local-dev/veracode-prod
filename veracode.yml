@@ -29,7 +29,7 @@ veracode_static_scan:
   break_build_on_error: false
   #If the break_build_on_policy_error is set to true, this is the error message that will be displayed if the pipeline scan fails to complete in time or with an error.
   error_message: "Veracode SAST scan faced a problem. Please contact your Veracode administrator for more information. If you are a Veracode administrator, please contact Veracode support."
-  policy: 'Veracode Recommended Medium + SCA'
+  policy: 'Veracode Recommended Medium + SCA-wrong'
   # If you would like to use your own GitHub workflow to package artifacts,
   # set use_custom_workflow to the name of the workflow you'd like to use. 
   # Set the property to 'default' if you'd like to use the default
